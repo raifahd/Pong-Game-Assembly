@@ -11,6 +11,3 @@ Uses VGA Mode 13h and BIOS/DOS interrupts for drawing and input. First to **10**
 **Tweak:** Change constants at the top of `pong_game.asm` (ball/paddle/speed/bounds).
 
 **Notes:** No sound; uses BIOS pixel calls (simple & portable). Requires VGA/DOS.
-
-Want improvements? I can add smoother timing, direct VGA memory writes, or a
-one-line build script—tell me which and I'll add it.
